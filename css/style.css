@@ -5790,6 +5790,13 @@
 		height: auto;
 	}
 
+	.swiper-slide.uzStd {
+		background-position: center;
+		background-size: cover;
+		width: 40%;
+		height: auto;
+	}
+
 	.swiper-slide img {
 		display: block;
 		width: 100%;
@@ -5802,6 +5809,13 @@
 	@media screen and (max-width: 578px) {
 		.swiper-slide {
 			width: 300px;
+			height: auto;
+		}
+
+		.swiper-slide.uzStd {
+			background-position: center;
+			background-size: cover;
+			width: 100%;
 			height: auto;
 		}
 
